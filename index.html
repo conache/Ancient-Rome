@@ -1,0 +1,307 @@
+<!doctype html>
+
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	  
+	  <script src="js/script.js"></script>
+    <title>Roma antică</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	  <link href="style.css" rel="stylesheet">
+
+  </head>
+	
+<body>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	
+	  <div class="modal fade " id="despre" tabindex="2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  
+		  <div class="modal-dialog modal-lg">
+    
+	  <div class="modal-content">
+      
+		<div class="modal-header">
+        <button type="button" class="close" id="inc" data-dismiss="modal" aria-label="Close"><span   aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">Despre proiect</h3>
+      </div>
+      		
+		  
+		<div class="modal-body">
+			<ul>
+			<li><h3> Bibliografie:</h3>
+				
+				<ol>
+					<li>
+						http://ro.wikipedia.org/wiki/Roma_Antic%C4%83
+					</li>
+					<li>
+						http://istorie-edu.ro/istorie-universala/Roma/roma_00.html
+					</li>
+					<li>
+						str.calificativ.ro/materialed/propuse/calatorieinromaantica_504.ppt
+
+					</li>
+					<li>
+						ticliceu.wikispaces.com/file/view/Roma+Antica.ppt
+					</li>
+				</ol>
+				<li> <h3>Liceu:</h3><h4> Liceul Teoretic <i>Ioan Slavici</i>, Panciu</h4>
+					
+				</li>
+				<li> <h3>Elev:</h3><h4> Mihalache Robert</h4>
+					
+				</li>
+				
+				<li><h3>Clasa:</h3><h4>a XII-a A</h4> </li>
+				
+				<li> <h3>Profesor:</h3><h4> Voicu Simina</h4>
+					
+				</li>
+				
+			</li>
+       		</ul>
+      </div>
+		
+		
+     
+    
+			  </div>
+  
+		  </div>
+
+	  </div>	 
+	
+	<div class="menu">
+	
+	<div class="patrat">
+	<div class="menu_icon">
+		
+		<div class="menu_t"><span id="but">Meniu</span></div>
+		<div class="hamb"><img src="menu.svg"></div>
+		
+		
+		
+	</div>
+		</div>
+		
+		<div class="menu_content">
+			
+			<div class="inchidere">X Închidere</div>
+			<ul class="col-md-5 col-lg-10 col-sm-6 col-xs-12" id="unl">
+				<li class="other" id="1">Acasă</li>
+				<li class="other" id="2" >Forme de organizare politică de-a lungul timpului</li>
+				<li class="other" id="3">Cultura</li>
+				<li class="other" id="4">Scurt istoric</li>
+				<li class="other" id="5"><a data-toggle="modal" data-target="#test">Testează-ți cunoștințele</a></li>
+				<li class="other" id="6"><a data-toggle="modal" data-target="#despre">Despre proiect</a></li>
+			</ul>
+		</div>
+		
+	</div>
+	
+	<div class="container">
+	  
+	
+	</div>
+	
+	<div class="modal fade " id="test" tabindex="2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  
+		  <div class="modal-dialog modal-lg">
+    
+	  <div class="modal-content">
+      
+		<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span   aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">Testează-ți cunostințele</h3>
+      </div>
+      		
+		  
+		<div class="modal-body">
+			<form class="test">
+				<ol>
+					<li>Roma Antică a fost un oraș-stat asezat pe <input type="text" id="i11" class="i11"> coline, iar potrivit tradiției, acesta a fost întemeiat de <input type="text" id="i12" class="i12"> și <input type="text" id="i13" class="i13"> în anul 735 î.e.n.</li>
+					
+					<li>
+						Perioada republicii Romei Antice începe în anul:<br>
+		
+
+						
+							<br>
+						<ul class="testare">
+						<li class="i21"><input type="checkbox" id="i21" >510 î.Hr. </li>
+					<br>
+					<li class="i22"><input type="checkbox" id="i22">
+					480 î.Hr.</li>
+					<br>
+					<li class="i23"><input type="checkbox" id="i23">
+					44 î.Hr.</li>
+					<br>
+					
+					</ul>	
+						
+					</li>
+					
+					</li>
+					
+					<li>
+						Printre formele de organizare politică adoptate de-a lungul timpului de Roma Antică se numără:
+						<br>
+						<ul class="testare">
+						<li class="i31"><input type="checkbox" id="i31" >Perioada monarhiei </li>
+					<br>
+					<li class="i32"><input type="checkbox" id="i32">
+					Perioada republicii</li>
+					<br>
+					<li class="i33"><input type="checkbox" id="i33">
+					Perioada interbelică</li>
+					<br>
+					<li class="i34"><input type="checkbox" id="i34">
+					Perioada imperiului </li>
+					<br>
+					<li class="i35"><input type="checkbox" id="i35">
+					Perioada de tranziție</li>
+					<br>
+					</ul>	
+					</li>
+					
+						
+					<li>
+						Religia romană arhaică se întemeia pe un panteon divin și pe o mitologie puternic înrâurită de mitologia
+					<select name="cauze" class="i41" id="i41">
+<option value="sa">slavonă</option>
+<option value="corect">greacă</option>
+<option value="indian">hindusă</option>
+<option value="celtii">celtică</option>
+</select>
+						
+					</li>
+					
+			
+							<br>
+						<ul class="testare">
+							Ultimul împărat de la Roma a fost detronat în:
+						<li class="i51"><input type="checkbox" id="i51" >110 d.Hr. </li>
+					<br>
+					<li class="i52"><input type="checkbox" id="i52">
+					480 d.Hr.</li>
+					<br>
+					<li class="i53"><input type="checkbox" id="i53">
+					476 d.Hr.</li>
+					<br>
+				</ul>	
+					</li>
+					
+					
+					<li>
+						În mitologia romană, zeul trăsnetului și al soarelui arzător este:
+					<select name="cauze" class="i61" id="i61">
+<option value="ju">Jupiter</option>
+<option value="ve">Venus</option>
+<option value="corect">Vulcanus</option>
+<option value="sa">Saturn</option>
+<option value="mi">Minerva</option>
+<option value="me">Mercurius</option>
+<option value="fa">Faunus</option>
+</select>
+						
+					</li>
+					
+					
+					<li>
+						În mitologia romană, zeul luminii și al fenomenelor cerești este:
+					<select name="cauze" class="i71" id="i71">
+<option value="corect">Jupiter</option>
+<option value="ve">Venus</option>
+<option value="vu">Vulcanus</option>
+<option value="sa">Saturn</option>
+<option value="mi">Minerva</option>
+<option value="me">Mercurius</option>
+<option value="fa">Faunus</option>
+</select>
+						
+					</li>
+					
+			
+					<li>
+						În mitologia romană, o divinitate agrară de origine latină:
+					<select name="cauze" class="i81" id="i81">
+<option value="ju">Jupiter</option>
+<option value="ve">Venus</option>
+<option value="vu">Vulcanus</option>
+<option value="corect">Saturn</option>
+<option value="mi">Minerva</option>
+<option value="me">Mercurius</option>
+<option value="fa">Faunus</option>
+</select>
+						
+					</li>
+					
+					
+	<li>
+						În mitologia romană, zeul comerțului și al comercianților:
+					<select name="cauze" class="i91" id="i91">
+<option value="ju">Jupiter</option>
+<option value="ve">Venus</option>
+<option value="vu">Vulcanus</option>
+<option value="sa">Saturn</option>
+<option value="mi">Minerva</option>
+<option value="corect">Mercurius</option>
+<option value="fa">Faunus</option>
+</select>
+						
+					</li>
+					
+					
+	<li>
+						În mitologia romană, zeița înțelepciunii, a artelor și a meșteșugurilor de tot felul este:
+					<select name="cauze" class="i10" id="i10">
+<option value="ju">Jupiter</option>
+<option value="ve">Venus</option>
+<option value="vu">Vulcanus</option>
+<option value="sa">Saturn</option>
+<option value="corect">Minerva</option>
+<option value="me">Mercurius</option>
+<option value="fa">Faunus</option>
+</select>
+						
+					</li>
+					
+					
+					
+					
+					</ol>
+			</form>
+      </div>
+		
+		  
+		  <div class="modal-footer">
+		
+		  
+        <button type="button" class="btn btn-default"  id="rasp">Arată răspunsuri </button>
+        <button type="button" class="btn btn-primary" id="Verificare" >Verifică-te</button>
+      </div>
+		
+     
+    
+			  </div>
+  
+		  </div>
+
+	  </div>	 
+	
+</body>
+	
+
+</html>
